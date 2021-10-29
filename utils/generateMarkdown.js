@@ -14,6 +14,25 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Installation
+  ${data.install}
+
+  ## Purpose
+  ${data.usage}
+
+  ## Contributors
+  ${data.credits}
+
+  ## Testing
+  ${data.tests}
+
+  ## Licensing
+  ${data.license}
+
+  ## GitHub/Email
+  ${data.GitHub} ${data.email}
+
+  Generated with ❤️ by Zachary McCollum
 `;
 }
 
