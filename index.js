@@ -15,7 +15,7 @@ async function promptUser() {
         {
             type: "input",
             name: "title",
-            message: "What is your projects title?"
+            message: "What is your projects title?:"
         },
         {
             type: "input",
@@ -25,27 +25,27 @@ async function promptUser() {
         {
             type: "input",
             name: "install",
-            message: "How does someone install your project?",
+            message: "How does someone install your project?:",
         },
         {
             type: "input",
             name: "usage",
-            message: "What is this project used for?",
+            message: "What is this project used for?:",
         },
         {
             type: "input",
             name: "credits",
-            message: "Who are the other contributors to this project?"
+            message: "Who are the contributors to this project?:"
         },
         {
             type: "input",
             name: "tests",
-            message: "How would you test your project?"
+            message: "How would you test your project?:"
         },
         {
             type: "list",
             name: "license",
-            message: "What is your projects license?",
+            message: "What is your projects license?:",
             choices: [
                 "Apache-2.0",
                 "GNU",
@@ -56,12 +56,12 @@ async function promptUser() {
         {
             type: "input",
             name: "GitHub",
-            message: "What is your GitHub account?"
+            message: "What is your GitHub account?:"
         },
         {
             type: "input",
             name: "email",
-            message: "What is your email?"
+            message: "What is your email?:"
         },
     ])
     .then((data) => {
