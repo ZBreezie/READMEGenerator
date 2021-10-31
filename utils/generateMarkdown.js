@@ -29,7 +29,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## Questions?: <a name="questions"></a>
-  My GitHub profile is: github.com/${data.GitHub} .
+  My GitHub profile is: https://github.com/${data.GitHub}.
   If you have any additional questions, feel free to reach me at my email: ${data.email}!
 `;
 }
