@@ -7,8 +7,7 @@ console.log('Hello Node!');
 
 
 // TODO: Create an array of questions for user input
-// title, description, installation instructions, usage information, contribution guidelines, test, license, GHub to QUESTIONS, email to QUESTIONS
-
+// title, description, installation instructions, usage information, contribution, test, license, GHub to QUESTIONS, email to QUESTIONS
 async function promptUser() {
 
     inquirer.prompt([
@@ -47,7 +46,7 @@ async function promptUser() {
             name: "license",
             message: "What is your projects license?:",
             choices: [
-                "Apache-2.0",
+                "Apache2.0",
                 "GNU",
                 "MIT",
                 "No license!",
@@ -56,7 +55,7 @@ async function promptUser() {
         {
             type: "input",
             name: "GitHub",
-            message: "What is your GitHub account?:"
+            message: "What is your GitHub username?:"
         },
         {
             type: "input",
@@ -77,15 +76,9 @@ function writeToFile(fileName, data) {
       if (err) {
        throw err;
       } else {
-        console.log('README.md is written!');
+        console.log('README.md has been written to your "dist" folder!');
       }
     })
 };
-// TODO: Create a function to initialize app
-// function init() {
-// }
 
-// Function call to initialize app
-// init();
-// writeToFile()
 promptUser()
