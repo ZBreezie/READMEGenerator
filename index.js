@@ -29,7 +29,7 @@ async function promptUser() {
         {
             type: "input",
             name: "usage",
-            message: "What is this project used for?:",
+            message: "How do we use your project?:",
         },
         {
             type: "input",
@@ -49,7 +49,7 @@ async function promptUser() {
                 "Apache2.0",
                 "GNU",
                 "MIT",
-                "No license!",
+                "NoLicense!",
             ]
         },
         {
