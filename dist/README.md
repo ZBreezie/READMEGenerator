@@ -27,5 +27,5 @@
   By running it
 
   ## Questions?: <a name="questions"></a>
-  My GitHub profile is: github.com/zbreezie.
+  My GitHub profile is: github.com/zbreezie .
   If you have any additional questions, feel free to reach me at my email: placeholderEmail@thisIsNotMyEmail.com!
